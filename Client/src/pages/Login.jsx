@@ -41,7 +41,7 @@ export default function Login() {
           toast.success("welcome!!")
           switch (response.data.user.type) {
             case 'buy':
-              window.location.replace('/home'); // Redirect buyers to the home page and clear history
+              navigate('/home'); // Redirect buyers to the home page and clear history
               break;
             case 'sell':
               navigate('/seller/dashboard'); // Redirect sellers to the listing page
