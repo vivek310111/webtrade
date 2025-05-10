@@ -81,7 +81,7 @@ export default function SellerListing() {
         filteredListings.map((listing) => (
           <div className="listing-card" key={listing._id}>
             <div className="listing-image">
-              <img src={`http://localhost:8000/${listing.images}`} alt={listing.websiteName} />
+              <img src={`https://webtrade-2u21.onrender.com/${listing.images}`} alt={listing.websiteName} />
             </div>
             <div className="listing-details">
               <h2>

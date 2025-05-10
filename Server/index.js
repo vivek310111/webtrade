@@ -7,6 +7,12 @@
 
  const app = express()
 
+ const corsOptions = {
+    origin: 'web-trade.netlify.app',
+    credentials: true,
+ }
+ app.use(cors(corsOptions))
+
  mongoose.connect(process.env.MONGO_URL)
  .then(() => console.log('Database connected'))
  .catch((err) => console.log('Database not connected', err))

@@ -42,7 +42,7 @@ export default function AdminOrderSummary() {
           {order.items.map((item, index) => (
             <div className="admin-order-item" key={index}>
               <img
-                src={`http://localhost:8000/${item.images}`}
+                src={`https://webtrade-2u21.onrender.com/${item.images}`}
                 alt={item.websiteName}
                 className="admin-order-item-thumbnail"
               />

@@ -93,7 +93,7 @@ function Website() {
         <div className="listing-image">
           {listing.images ? (
             <img
-              src={`http://localhost:8000/${listing.images}`}
+              src={`https://webtrade-2u21.onrender.com/${listing.images}`}
               alt={listing.websiteName}
             />
           ) : (

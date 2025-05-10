@@ -51,7 +51,7 @@ export default function Cart() {
               cartItems.map((item) => (
                 <tr key={item._id}>
                   <td className="product-info">
-                    <img src={`http://localhost:8000/${item.images}`} alt={item.websiteName} />
+                    <img src={`https://webtrade-2u21.onrender.com/${item.images}`} alt={item.websiteName} />
                     <span>{item.websiteName}</span>
                   </td>
                   <td> {formatPrice(Number(item.price))}</td>

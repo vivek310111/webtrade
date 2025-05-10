@@ -102,7 +102,7 @@ export default function CheckOut() {
         <h2>Order Summary</h2>
         {cartItems.map((item) => (
           <div className="order-item" key={item._id}>
-            <img src={`http://localhost:8000/${item.images}`} alt={item.websiteName} />
+            <img src={`https://webtrade-2u21.onrender.com/${item.images}`} alt={item.websiteName} />
             <div>
               <p>{item.websiteName}</p>
               <p className="industry">{item.industry}</p>

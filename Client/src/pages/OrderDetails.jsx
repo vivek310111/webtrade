@@ -35,7 +35,7 @@ export default function OrderDetails() {
             {order.items.map((item, index) => (
               <div className="item-card" key={index}>
                 <img
-                  src={`http://localhost:8000/${item.images}`}
+                  src={`https://webtrade-2u21.onrender.com/${item.images}`}
                   alt={item.websiteName}
                   className="item-thumbnail"
                 />
@@ -50,7 +50,7 @@ export default function OrderDetails() {
                     View This Website
                   </a>
                   <a
-                    href={`http://localhost:8000/${item.sourceCode}`}
+                    href={`https://webtrade-2u21.onrender.com/${item.sourceCode}`}
                     download
                     className="source-code-btn"
                   >

@@ -26,7 +26,7 @@ import AdminReports from './pages/AdminReports'
 import OrderReports from './pages/OrderReports'
 import AdminOrderSummary from './pages/OrderSummary'
 
-axios.defaults.baseURL = 'http://localhost:8000'
+axios.defaults.baseURL = 'https://webtrade-2u21.onrender.com'
 axios.defaults.withCredentials = true
 
 function App() {

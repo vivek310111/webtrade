@@ -59,7 +59,7 @@ export default function MyOrder() {
         {filteredOrders.map((order) => (
           <div className="order-card" key={order.orderId}>
             <img
-              src={order.items[0]?.images ? `http://localhost:8000/${order.items[0].images}` : 'placeholder.jpg'}
+              src={order.items[0]?.images ? `https://webtrade-2u21.onrender.com/${order.items[0].images}` : 'placeholder.jpg'}
               alt="Order Thumbnail"
               className="order-thumbnail"
             />

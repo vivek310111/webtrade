@@ -58,7 +58,7 @@ export default function OrderReports() {
           {filteredOrders.map((order) => (
             <div className="admin-order-card" key={order.orderId}>
               <img
-                src={`http://localhost:8000/${order.items[0]?.images}`}
+                src={`https://webtrade-2u21.onrender.com/${order.items[0]?.images}`}
                 alt="Order Thumbnail"
                 className="admin-order-thumbnail"
               />
