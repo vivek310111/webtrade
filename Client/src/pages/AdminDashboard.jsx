@@ -5,7 +5,7 @@ import AdminNavbar from '../components/AdminNavbar'; // Import the AdminNavbar c
 import yourListing from '../assets/images/yourlisting.png';
 import report from '../assets/images/report.png';
 import inquiry from '../assets/images/inquiry.png';
-
+import adminCart from '../assets/images/admincart.png';
 
 export default function AdminDashboard() {
   return (
@@ -39,7 +39,7 @@ export default function AdminDashboard() {
             <Link to="/admin/orders" className="a-dashboard-card">
           <div>
             <div className="a-card-icon">
-              <img src={order} alt="Order Details" />
+              <img src={adminCart} alt="Order Details" />
             </div>
             <h2>Order Details</h2>
             <p>Access Order Information</p>
