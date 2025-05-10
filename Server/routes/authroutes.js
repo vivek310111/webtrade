@@ -8,7 +8,7 @@ const {test, registerUser, loginUser} = require('../controllers/authcontrollers'
 router.use(
     cors({
         credentials: true,
-        origin: 'http://localhost:5173'
+        origin: 'https://web-trade.netlify.app'
     })
 )
 
