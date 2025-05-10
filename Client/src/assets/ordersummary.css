@@ -1,0 +1,48 @@
+.admin-order-summary-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .admin-order-summary {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-order-summary p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .admin-order-items {
+    margin-top: 20px;
+  }
+  
+  .admin-order-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .admin-order-item-thumbnail {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .admin-order-total {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }

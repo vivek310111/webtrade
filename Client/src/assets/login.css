@@ -1,0 +1,170 @@
+/* styles.css */
+
+.sign-in-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 96vh;
+    min-width: 4rem;
+    /* background-color: #f0f0f0; */
+    font-family: 'poppins';
+  }
+  
+  .sign-in-box {
+    background-color: #fff;
+    overflow: hidden;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(31, 29, 29, 0.452);
+    width: 350px; /* Adjust width as needed */
+    margin-top: 45px;
+  }
+  
+  .form-title {
+    text-align: center;
+    color: #333;
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .welcome-text {
+    text-align: center;
+    color: #777;
+    margin-bottom: 30px;
+    font-family: 'poppins';
+  }
+  
+  .sign-in-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    color: #333;
+  }
+  
+  .sign-in-form label {
+    display: block; /* Make labels stack on top of inputs */
+    margin-bottom: 5px;
+    color: #000;
+  }
+  
+  .form-input {
+    width: calc(90% - 12px); /* Adjust for padding and border */
+    height: 25px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+ 
+  
+  .forgot-password {
+    display: block; /* Make it a block element for alignment */
+    text-align: right;
+    margin-bottom: 20px;
+    color: #007bff; /* Example link color */
+    text-decoration: none;
+  }
+  
+  .button-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sign-in-button {
+    width: 50%;
+    height: 35px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: #000; /* Black background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Add transitions */
+    overflow: hidden; /* For ripple effect */
+    position: relative; /* For ripple effect */
+  }
+
+  .sign-in-button:hover {
+    background-color: lightgreen; /* Darker background on hover */
+    color: #000;
+    transform: translateY(-3px); /* Slight lift on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow on hover */
+  }
+  
+  .sign-in-button:active {
+    transform: translateY(0); /* Reset lift on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Smaller shadow on click */
+  }
+  
+  
+  /* Optional: Ripple effect on button click */
+  .sign-in-button .ripple {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.3); /* White ripple */
+    pointer-events: none; /* Allow click to pass through */
+    transform: translate(-50%, -50%) scale(0); /* Start small */
+    animation: ripple 0.6s linear; /* Animate the ripple */
+  }
+  
+  @keyframes ripple {
+    to {
+      transform: translate(-50%, -50%) scale(2); /* Expand ripple */
+      opacity: 0; /* Fade out */
+    }
+  }
+  
+  
+  .register-account {
+    text-align: center;
+    margin-top: 2px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .register-account span {
+    color: #777;
+  }
+  
+  .register-account a {
+    color: #000; /* Example link color */
+    margin-left: 5px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-style: bold;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+  }
+
+  .register-account a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transition: transform 0.25s ease-out;
+  }
+
+  .register-account a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+  }
+
+  .register-account a::after {
+    transform-origin: bottom center;
+  }
+

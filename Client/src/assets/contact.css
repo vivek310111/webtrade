@@ -1,0 +1,117 @@
+.contact-container {
+  font-family: 'poppins', 'sans-serif';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+  background-color: #f8f8f8;
+}
+
+.contact-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 80%; /* Set a fixed width for the page */
+  max-width: 1200px; /* Limit the maximum width */
+  background-color: #fff; /* White background for the container */
+  border: 1px solid #ddd; /* Add a border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.contact-info {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.contact-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.contact-form-container {
+  width: 65%;
+ 
+}
+
+.contact-form-container h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.contact-form-container p {
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-inputs {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-input{
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  width: 48%;
+  display: grid;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input{
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  gap: 10px;
+}
+
+.input-group textarea {
+  margin-bottom: 15px;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  resize: none; /* Prevent resizing */
+  background-color: #f8f8f8;
+}
+
+.send-message-btn {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-message-btn:hover {
+  background-color: #333;
+}

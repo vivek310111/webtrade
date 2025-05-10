@@ -1,0 +1,247 @@
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #4a4aff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-container p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.website-container {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: calc(100vh - 80px);
+    margin-bottom: 50px;
+  }
+  
+  .search-and-filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .search-bar:focus {
+    outline: none;
+    border-color: black
+;
+    box-shadow: 0 0 5px rgba(3, 4, 4, 0.5);
+  }
+
+  .search-bar::placeholder {
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  
+  .filters button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .filters button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .listings {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .listing-card {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+
+    animation: slide-in 0.5s ease-in-out;
+  animation-fill-mode: backwards;
+  }
+
+  .listing-card:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .listing-card:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .listing-card:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  
+  .listing-image img {
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+  }
+  
+  .listing-image .placeholder {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    color: #555;
+  }
+  
+  .listing-title h3{
+    font-size: 1.5rem;
+    color: #333;
+  }
+
+ .listing-title h5 {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .listing-details {
+    display: flex;
+    flex: 1;
+    margin: 10px 10px;
+  }
+  
+  .listing-details h3 {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .listing-details p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #555;
+    padding: 0 15px;
+  }
+  
+  .listing-details .verified {
+    background-color: #4a4aff;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+  }
+  
+  .listing-price {
+    text-align: left;
+  }
+  
+  .listing-price p {
+    font-size: 1.3rem;
+    color: #555;
+    margin-bottom: 0;
+  }
+  
+  .listing-price h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 0;
+  }
+
+  
+  .view-link {
+    padding: 10px 20px;
+    background-color: #4a4aff;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .view-link a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .view-link:hover {
+    transition: background-color 0.3s ease;
+    background-color: #333;
+  }
+
+  .listing-actions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .buy-now-btn {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0;
+    width: 100%;
+    height: 40px;
+  }
+  
+  .buy-now-btn:hover {
+    background-color: #218838;
+  }
+
+  .no-listings-message {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.2rem;
+    color: #555;
+  }

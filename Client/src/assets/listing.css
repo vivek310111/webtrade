@@ -1,0 +1,106 @@
+.listing-container {
+    font-family: 'poppins', sans-serif;
+    padding: 20px;
+    width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .listing-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+    font-family: 'poppins', 'sans-serif';
+  }
+  
+  .listing-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .listing-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .listing-group label {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .listing-group input,
+  .listing-group textarea {
+    padding: 5px;
+    width: calc(100% - 40px); /* Account for padding and border */
+    font-size: 1rem;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-transform: capitalize;
+
+  }
+
+  .link-group input{
+    padding: 5px;
+    width: calc(100% - 40px); /* Account for padding and border */
+    font-size: 1rem;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-transform: none;
+  }
+
+  .listing-group select {
+    width: calc(100% - 30px); /* Account for padding and border */
+    font-size: 1rem;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 15px;
+  }
+
+  .radio-group input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #4a4aff;
+    display: grid;
+    place-content: center;
+  }
+  
+  .radio-group label {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    width: 60%;
+    margin: 5px auto;
+    color: #fff;
+    background-color: #4a4aff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }

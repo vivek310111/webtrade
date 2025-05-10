@@ -1,0 +1,130 @@
+.checkout-container {
+    border: 1px solid #000;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .payment-method {
+    margin-bottom: 20px;
+  }
+  
+  .payment-method p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .payment-method label {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1rem;
+  }
+  
+  .bank-details input {
+    display: block;
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .order-summary {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .order-summary h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .order-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .order-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  .order-item .industry {
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  .order-item .price {
+    margin-left: auto;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .summary-details {
+    margin-top: 20px;
+  }
+  
+  .summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .summary-row.total {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .pay-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    background-color: #ffc107;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .pay-btn:hover {
+    background-color: #e0a800;
+  }
+  
+  .privacy-note {
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .card-details input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .card-info {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .card-info input {
+    flex: 1;
+  }

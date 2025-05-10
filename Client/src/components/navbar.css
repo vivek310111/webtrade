@@ -1,0 +1,178 @@
+.navbar {
+    background-color: #ffffff; /* Example background color */
+    padding: 1rem; /* Example padding */
+    border-bottom: 2px solid #000; /* Example border */
+  }
+
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Example max width */
+    margin: -10px -10px;
+  }
+
+  .navbar-left {
+    font-family: 'poppins';
+  }
+
+  .navbar-title {
+    font-size: 1.2rem; /* Example font size */
+    font-weight: bolder;
+    text-align: left;
+    text-decoration: none;
+    color: #000;
+  }
+
+ .logo{
+  display: flex;
+    height: 30px;
+    width: 120px;
+  }
+
+  .navbar-right {
+    display: flex;
+    align-items: center;
+
+  }
+
+  .navbar-links {
+    list-style: none;
+    margin-right: 10px;
+    padding: 0;
+    display: flex;
+  }
+
+  .navbar-item {
+    margin-left: 3rem; /* Example spacing between items */
+    font-size: 1rem;
+    font-family: 'poppins';
+    display: inline-block;
+    position: relative;
+  }
+
+  .navbar-link {
+    text-decoration: none;
+    color: #333; /* Example link color */
+    /* padding: 0.5rem; */
+    /* Example padding for links */
+
+  }
+
+  .navbar-item a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    transition: transform 0.25s ease-out;
+  }
+
+  .navbar-item a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+  }
+
+  .navbar-item a::after {
+    transform-origin: bottom center;
+  }
+
+
+
+  .navbar-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 2rem; /* Example spacing between icons and links */
+
+  }
+
+
+  .navbar-icon {
+    display: flex;
+    margin-left: 1rem; /* Example spacing between icons */
+    margin-right: -0.5rem;
+    color: #555; /* Example icon color */
+    height:30px;
+    width: 50px;
+  }
+
+  .navbar-btn{
+   
+    display: flex;
+    margin-left: 1rem; /* Example spacing between icons */
+    margin-right: -0.5rem;
+    color: #555;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .navbar-btn:hover {
+    background-color: #fff; /* Example hover color */
+  }
+
+  .logout-popup {
+    font-family: 'poppins' , 'sans-serif';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .logout-popup-content {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logout-popup-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .logout-popup-buttons {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  
+  .confirm-button,
+  .cancel-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .confirm-button {
+    background-color: #f5f5dc; /* Light beige */
+    color: #000;
+  }
+  
+  .cancel-button {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .confirm-button:hover {
+    background-color: #e5e5d0;
+  }
+  
+  .cancel-button:hover {
+    background-color: #f0f0f0;
+  }

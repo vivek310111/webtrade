@@ -1,0 +1,81 @@
+.admin-order-reports-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.admin-search-bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.admin-search-bar {
+  width: 70%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.admin-orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.admin-order-card {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.admin-order-thumbnail {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.admin-order-details {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.admin-order-details p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.admin-order-details strong {
+  color: #000;
+}
+
+.admin-view-order-btn {
+  width: 10%;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.admin-view-order-btn:hover {
+  color: #0056b3;
+}

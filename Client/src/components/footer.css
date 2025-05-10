@@ -1,0 +1,95 @@
+.footer {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 30px 0; /* Padding top and bottom */
+  font-family: 'poppins'; /* Use a suitable font */
+  margin-top: auto;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around; /* Distribute sections evenly */
+  max-width: 960px; /* Limit width for larger screens */
+  margin: 0 auto; /* Center the content */
+  padding: 0 10px; /* Add side padding */
+  margin-bottom: 20px;
+}
+
+.footer-section {
+  flex: 1; /* Each section takes equal width */
+  margin: 0 80px; /* Space between sections */
+}
+
+.footer-section h4 {
+  font-size: 1.4rem; /* Slightly larger heading */
+  margin-bottom: 5px;
+  margin-top: 5px;
+  color: #fff; /* White heading */
+  font-weight: 600; /* Slightly bolder heading */
+}
+
+.footer-section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 10px; /* Space between links */
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: #fff; /* White link color */
+  transition: color 0.3s ease; /* Smooth color transition */
+  font-size: 1rem;
+}
+
+.footer-section a:hover {
+  color: gray; /* Lighter color on hover */
+}
+
+.footer-contact-information {
+  display: flex;
+  flex-direction: column; /* Arrange contact info vertically */
+  font-size: 0.7rem;
+  margin: auto;
+}
+
+.footer-social{
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+
+}
+
+.footer-contact-information img{
+  height: 20px;
+  width: 20px;
+}
+
+.footer-contact-information p {
+  margin-bottom: -5px; /* Space between contact items */
+  font-size: 0.8rem; /* Smaller font size for contact info */
+  color: #ccc; /* Lighter text color */
+  display: flex;
+}
+
+.icon {
+  margin-right: 5px; /* Space between icon and text */
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 10px; /* Add some space above the bottom text */
+  border-top: 1px solid #333; /* Add a subtle line */
+  margin-top: 5px; /* Add margin to separate from content */
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 1rem; /* Slightly smaller font size */
+  color: #aaa; /* Slightly lighter text color */
+}

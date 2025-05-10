@@ -1,0 +1,90 @@
+/* Navbar Container */
+.landing-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .lnavbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Logo Section */
+  .lnavbar-left .logo h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  .lnavbar-left .logo h1 span {
+    color: #000;
+    font-weight: normal;
+  }
+  
+  /* Links Section */
+  .lnavbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .lnavbar-links {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+  }
+  
+  .lnavbar-item {
+    margin: 0 15px;
+  }
+  
+  .lnavbar-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .lnavbar-link:hover {
+    color: #555;
+  }
+  
+  /* Buttons Section */
+  .lnavbar-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .lnavbar-btn {
+    padding: 8px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .register-btn {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .login-btn {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .register-btn:hover,
+  .login-btn:hover {
+    background-color: #333;
+  }

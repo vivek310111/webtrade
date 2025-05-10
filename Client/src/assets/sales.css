@@ -1,0 +1,53 @@
+.sales-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar-container {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .search-bar {
+    width: 70%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .sales-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .sales-table th,
+  .sales-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .sales-table th {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .sales-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .total-container {
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
