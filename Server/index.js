@@ -8,7 +8,7 @@
  const app = express()
 
  const corsOptions = {
-    origin: 'web-trade.netlify.app',
+    origin: 'https://web-trade.netlify.app',
     credentials: true,
  }
  app.use(cors(corsOptions))
